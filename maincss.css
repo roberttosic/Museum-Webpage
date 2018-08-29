@@ -1,0 +1,24 @@
+.navigationbar {
+    background-color: #ff5733 ;
+    overflow: hidden;
+}
+.navigationbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigationbar a:hover {
+    background-color:  #ffdbd3 ;
+    color: black;
+}
+
+
+.navigationbar a.active {
+    background-color: #ffdbd3;
+    color: white;
+}
+
